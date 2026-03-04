@@ -11,9 +11,14 @@ import java.util.Scanner;
 
 public class FrecuenciaValoresArray {
     public static  void main(String args[]) {
-        final int DIMENSION = 15;
+        final int DIMENSION;
+        Scanner sc = new Scanner(System.in);
         Random aleatorio = new Random();
         int contador = 0;
+
+        System.out.println("Introduce la DIMENSIÓN");
+        DIMENSION = sc.nextInt();
+
         int[] primerArray = new int[DIMENSION];
         int [] frecuencias = new int[DIMENSION];
 
