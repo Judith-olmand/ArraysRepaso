@@ -11,10 +11,11 @@ import java.util.Scanner;
 
 public class FrecuenciaValoresArray {
     public static  void main(String args[]) {
+        final int DIMENSION = 15;
         Random aleatorio = new Random();
         int contador = 0;
-        int[] primerArray = new int[10];
-        int [] frecuencias = new int[10];
+        int[] primerArray = new int[DIMENSION];
+        int [] frecuencias = new int[DIMENSION];
 
         System.out.println("Array");
         for (int i = 0; i < primerArray.length; i++) {
